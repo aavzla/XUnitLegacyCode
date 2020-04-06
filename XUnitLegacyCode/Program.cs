@@ -9,7 +9,7 @@ namespace XUnitLegacyCodeSproutMethod
         {
             Console.Clear();
 
-            var legacyClass = new DictionaryService();
+            var dictionaryService = new DictionaryService();
 
             var dictFrom = new Dictionary<int, int>()
             {
@@ -23,9 +23,10 @@ namespace XUnitLegacyCodeSproutMethod
                 { 7, 0 },
                 { 8, 0 },
                 { 9, 0 },
+                { 1, 23 }
             };
 
-            legacyClass.AppendDictionary<int, int>(dictFrom, dictTo);
+            dictionaryService.AppendDictionary<int, int>(dictFrom, dictTo);
 
             Console.WriteLine($"List of Values of the To Dictionary");
             foreach (var item in dictTo)

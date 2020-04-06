@@ -1,12 +1,13 @@
 ﻿using System.Collections.Generic;
-using XUnitLegacyCodeSproutMethod.Models;
+using XUnitLegacyCodeSproutClass.Services.Interfaces;
+using XUnitLegacyCodeSproutClass.Models;
 
-namespace XUnitLegacyCodeSproutMethod.Services
+namespace XUnitLegacyCodeSproutClass.Services
 {
-    public class EmployeeService
+    public class EmployeeService : IEmployeeService
     {
         //This Service is for returning the employee information as it was for the Legacy.
-        public List<Employee> GetEmployees()
+        public IList<Employee> GetEmployees()
         {
             var result = new List<Employee>();
 

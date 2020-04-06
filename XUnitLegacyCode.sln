@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29926.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitLegacyCodeSproutMethod", "XUnitLegacyCode\XUnitLegacyCodeSproutMethod.csproj", "{E9C2E245-D7C7-41B1-8A6D-5CBC0416BCBA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XUnitLegacyCodeSproutMethod", "XUnitLegacyCode\XUnitLegacyCodeSproutMethod.csproj", "{E9C2E245-D7C7-41B1-8A6D-5CBC0416BCBA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitLegacyCodeSproutClass", "XUnitLegacyCodeSproutClass\XUnitLegacyCodeSproutClass.csproj", "{CA76ED51-2DCD-421D-ADF9-1039406753BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XUnitLegacyCodeSproutClass", "XUnitLegacyCodeSproutClass\XUnitLegacyCodeSproutClass.csproj", "{CA76ED51-2DCD-421D-ADF9-1039406753BC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XUnitLegacyCodeSproutMethod.Test", "XUnitLegacyCodeSproutMethod.Test\XUnitLegacyCodeSproutMethod.Test.csproj", "{0AB5D849-84AE-479E-8AF7-E7958689AB4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitLegacyCodeSproutClass.Test", "XUnitLegacyCodeSproutClass.Test\XUnitLegacyCodeSproutClass.Test.csproj", "{32E28441-44DF-490C-87CC-F30A943B378F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{CA76ED51-2DCD-421D-ADF9-1039406753BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA76ED51-2DCD-421D-ADF9-1039406753BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA76ED51-2DCD-421D-ADF9-1039406753BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AB5D849-84AE-479E-8AF7-E7958689AB4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AB5D849-84AE-479E-8AF7-E7958689AB4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AB5D849-84AE-479E-8AF7-E7958689AB4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AB5D849-84AE-479E-8AF7-E7958689AB4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32E28441-44DF-490C-87CC-F30A943B378F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32E28441-44DF-490C-87CC-F30A943B378F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32E28441-44DF-490C-87CC-F30A943B378F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32E28441-44DF-490C-87CC-F30A943B378F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
